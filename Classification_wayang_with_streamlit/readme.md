@@ -1,2 +1,2 @@
 Preview:
-![Preview :](https://github.com/arianza1210/ComputerVision/blob/main/Classification_wayang_with_streamlit/preview.png){:width="40%"}
+![Preview :](https://github.com/arianza1210/ComputerVision/blob/main/Classification_wayang_with_streamlit/preview.png){:width="300px" height="200px"}
