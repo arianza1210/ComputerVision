@@ -23,7 +23,7 @@ def main () :
         st.pyplot(figure)
 
 def predict_class(image):
-    classifier_model=tf.keras.models.load_model(r'image/my_model.hdf5')
+    classifier_model=tf.keras.models.load_model(r'models/my_model.hdf5')
     shape=((224,224,3))
     model = tf.keras.Sequential([hub.KerasLayer(classifier_model, input_shape=shape)])
     test_image= image.resize((224,224))
